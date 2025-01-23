@@ -64,7 +64,7 @@ POST http://localhost:8080/api/users
 GET http://localhost:8080/api/categories
    ```json
    {
-    "name": "Technologie"
+    "name": "CategoryName"
    }
    ```
 
@@ -77,12 +77,12 @@ GET http://localhost:8080/api/discussions
 POST http://localhost:8080/api/discussions
    ```json
    {
-    "title": "Discussion sur l'IA",
+    "title": "DiscussionTitle",
     "user": {
-        "id": 33
+        "id": 1
     },
     "category": {
-        "id": 33
+        "id": 1
     }
    }
    ```
@@ -90,12 +90,12 @@ POST http://localhost:8080/api/discussions
 PUT http://localhost:8080/api/discussions/{discussionId}
    ```json
    {
-    "title": "Nouvelle discussion sur l'IA",
+    "title": "NewDiscussionTitle",
     "user": {
-        "id": 33
+        "id": 1
     },
     "category": {
-        "id": 33
+        "id": 1
     }
    }
    ```
@@ -109,7 +109,7 @@ GET http://localhost:8080/api/responses
 POST http://localhost:8080/api/responses
    ```json
    {
-    "content": "Je pense que l'IA est fascinante.",
+    "content": "AnswerContent",
     "discussion": {
         "id": 1
     },
@@ -136,5 +136,4 @@ Pour exécuter les tests, utilisez la commande suivante :
 
 ## Auteur
 
-Simon Berthoud
-Étudiant - HE-Arc 2024
+Simon Berthoud, étudiant - HE-Arc 2024
