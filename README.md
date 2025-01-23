@@ -41,7 +41,7 @@
 
 4. Tester l'application via Postman
 
-## Technologies utilisées
+## Routes API
 
 Il faut savoir que toutes les routes qui nécessitent le userId dans la requête, il faut que ce soit un admin qui fasse cette action
 
