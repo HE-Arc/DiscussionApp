@@ -62,6 +62,8 @@ POST http://localhost:8080/api/users
    ```
 
 GET http://localhost:8080/api/categories
+
+POST http://localhost:8080/api/categories?userId={userId}
    ```json
    {
     "name": "CategoryName"
