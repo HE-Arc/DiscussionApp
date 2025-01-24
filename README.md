@@ -1,7 +1,10 @@
 # DiscussionAppProject
 
 ## Description
-**DiscussionAppProject** est une application web développée en Java avec le framework **Spring Boot**. L'application permet de gérer des discussions et des réponses associées, tout en intégrant des rôles utilisateurs (ADMIN et USER). Les fonctionnalités incluent la création, la mise à jour, la suppression de discussions et de catégories, ainsi que la gestion des réponses.
+**DiscussionAppProject** est une application web développée en Java avec le framework **Spring Boot**. 
+L'application permet de gérer des discussions et des réponses associées, tout en intégrant des rôles utilisateurs (ADMIN et USER). 
+Les fonctionnalités incluent la création, la mise à jour, la suppression de discussions et de catégories, ainsi que la gestion des réponses.
+Vous trouverez également un pdf qui fait office de rapport à la racine du repository git.
 
 ## Fonctionnalités
 - Gestion des utilisateurs avec des rôles ADMIN et USER.
